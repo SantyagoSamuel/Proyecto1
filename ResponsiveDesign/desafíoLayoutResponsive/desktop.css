@@ -1,0 +1,14 @@
+/* .principal {
+    display: flex;
+    flex-direction: row;
+} */
+.Akatsuki-Member {
+    width: 30%; 
+}
+.header-nav li {
+    margin: 3px 10px;
+}
+.header-nav li > a {
+    font-size: 1.8rem;
+
+}

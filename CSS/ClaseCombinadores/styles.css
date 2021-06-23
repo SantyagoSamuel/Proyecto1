@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    color: white;
+    background-color:black;
+    padding-left: 10px;
+}
+
+/*HERMANO ADYACENTE CERCANO*/
+.hermano-adyacente {
+    background-color: gray;
+    padding: 5px;
+    padding-left: 10px;
+}
+.hermano-adyacente h2 + p {
+    color: red;
+}
+
+/*HERMANO GENERAL*/
+.hermano-general{
+    padding-left: 10px;
+} 
+.hermano-general h2 ~ p {
+    color: green;
+}
+
+/*HIJO*/
+.hijo {
+    background-color: gray;
+    padding: 5px;
+    padding-left: 10px;
+}
+.hijo div > p {
+    color: yellow;
+}
+
+/*DESCENDIENTE*/
+.descendiente {
+    padding-left: 10px;
+}
+.descendiente div p{
+    color: blue;
+}
+

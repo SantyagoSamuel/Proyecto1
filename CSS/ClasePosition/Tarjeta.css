@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: black;
+}
+.tarjeta {
+    background-color: #1c292f;
+    border: 10px #4c335a solid;
+    border-radius: 100px;
+    width: 40%;
+    height: 70%;
+    margin: 30px auto;
+    min-height: 600px;
+    min-width: 260px;
+    position: relative;
+}
+
+.image {
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+.image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.content {
+    background-color: #384951;
+    border: none;
+    border-radius: 35px;
+    min-width: 100px;
+    min-height: 50px;
+    text-align: center;
+    margin: 20px 50px;
+    position: relative;
+    bottom: 30px;
+    
+}
+.content span{
+    font-size: 2rem;
+    color: #f8f3d6;
+    padding-top: 5px;
+}
+.content p {
+    color: #ca8eb4;
+    padding: 10px;
+    font-size: 1.6rem;
+}
+
+
+.titulo {
+    background-color: #4c335a;
+    border: none;
+    border-radius: 10px;
+    width: 240px;
+    height: 40px;
+    text-align: center;
+    margin: 20px auto;
+    position: relative;
+    bottom: 40px;
+}
+
+.titulo span {
+    color: #fdffde;
+    font-size: 2.5rem;
+    padding-top: 10px;
+}

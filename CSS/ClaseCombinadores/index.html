@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conbinators</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!--HERMANO ADYACENTE CERCANO-->
+    <h4>HERMANO ADYACENTE</h4>
+    <div class="hermano-adyacente"> <!--todos los elementos dentro del padre div sion HERMANOS-->
+        <h2>soy un h2</h2>
+        <p>soy un p</p>
+        <h2>soy un h2</h2>
+        <h3>soy un h3</h3>
+        <p>soy un p</p>  <!--A este elemeto no se le aplica estilo porque NO está DEBAJO de un H2; no es HERMANO ADYACENTE de un h2-->
+        <h2>soy un h2</h2>
+        <p>soy un p</p>
+    </div>
+
+    <!--HERMANO GENERAL-->
+    <h4>HERMANO GENERAL</h4>
+    <div class="hermano-general"> <!--todos los elementos dentro del padre div sion HERMANOS-->
+        <p>soy un p</p> <!--A este elemento no se le aplica estilo porque ES HERMANO GENERAL de los h2, pero NO tiene algún h2 encima de él-->
+        <h2>soy un h2</h2>
+        <p>soy un p</p>
+        <h2>soy un h2</h2>
+        <h3>soy un h3</h3>
+        <p>soy un p</p>
+        <p>soy un p</p>
+    </div>
+
+    <!--HIJJO-->
+    <h4>HIJO</h4>
+    <div class="hijo">
+       <div> <!--div padre-->
+         <article>
+             <p>soy un texto</p>
+         </article>
+         <article>
+             <p>soy un texto</p>
+         </article>
+         <section>
+             <div>
+                 <p>soy un texto</p> <!--Con estilo por ser hijo directo de un div-->
+             </div>
+         </section>
+        <p>soy un texto</p> <!--Con estilo por ser hijo directo de un div-->
+       </div>
+    </div>
+
+    <!--DESCENDIENTE-->
+    <h4>DESCENDIENTE</h4>
+    <div class="descendiente">
+        <div> <!--div padre-->
+            <article>
+                <p>soy un texto</p> <!--Se le aplica Estilo a todos los p porque todos son descendientes de un DIV-->
+            </article>
+            <article>
+                <p>soy un texto</p> <!--descendiente de un div-->
+            </article>
+            <section>
+                <div>
+                    <p>soy un texto</p> <!--descendiente de un div-->
+                </div>
+            </section>
+            <p>soy un texto</p> <!--descendiente de un div-->
+        </div>
+    </div>
+</body>
+</html>

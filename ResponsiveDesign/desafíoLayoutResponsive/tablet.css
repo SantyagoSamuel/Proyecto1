@@ -1,0 +1,16 @@
+.header-nav li {
+    margin: 3px 10px;
+}
+/*MAIN*/
+.principal {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Akatsuki-Member {
+    width: 45%;
+    margin: 40px auto; 
+}
+.Akatsuki-Member h3 {
+    padding: 10px 0;
+}
+
